@@ -1,0 +1,188 @@
+.topheader {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+  height: 4.375rem;
+}
+
+.Menu-Horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.Menu-Horizontal li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+.Menu-Horizontal li a:hover {
+  color: red;
+}
+.Menu-Vertical {
+  padding: 0;
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 9.375rem;
+  background-color: silver;
+}
+.Menu-Horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+.Menu-Vertical li a {
+  padding: 0.938rem 0.938rem 0.938rem 1.25rem;
+}
+/**/
+.seccion-Oferta {
+  padding: 3.75rem 1.25rem;
+  background-color: white;
+}
+.div-general-Oferta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 1.25rem;
+}
+.div-Oferta-texto {
+  flex: 1;
+}
+.div-Oferta-texto h2 {
+  text-align: center;
+  margin-bottom: 0.625rem;
+}
+.div-Oferta-texto p {
+  text-align: justify-content;
+
+  color: black;
+  line-height: 1.5;
+}
+.div-prod-img {
+  flex: 1;
+}
+.div-prod-img img {
+  width: 100%;
+}
+/**/
+.div-per-texto h2 {
+  text-align: center;
+  margin-bottom: 0.625rem;
+}
+
+.seccion-per {
+  padding: 3.75rem 1.25rem;
+  background-color: silver;
+}
+.div-general-per {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 1.25rem;
+}
+.div-per-texto {
+  flex: 1;
+}
+.div-per-texto p {
+  text-align: justify-content;
+  color: black;
+  line-height: 1.5;
+}
+.div-prod-vid iframe {
+  align-items: center;
+  width: 100%;
+}
+.div-prod-vid2 iframe {
+  align-items: center;
+  width: 100%;
+}
+.sub h2 {
+  text-align: center;
+  width: 100%;
+}
+.seccion-form {
+  background-color: antiquewhite;
+  padding: 2.5rem;
+  border: 0.188rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+.div-form {
+  padding: 1.875rem;
+  border: 0.125rem solid rgba(202, 172, 133, 0.767);
+  border-radius: 0.625rem;
+  width: 100%;
+  max-width: 31.25rem;
+}
+.campo {
+  border: 0.063rem;
+  padding: 0.938rem;
+  margin-bottom: 0.938rem;
+  border-radius: 0.5rem;
+  background-color: rgb(235, 184, 118);
+}
+.formulario-ayuda label {
+  display: block;
+  font-weight: 100;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+/*INPUT Y SELECT*/
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 0.625rem;
+  box-sizing: border-box;
+  border: 0.063rem solid rgb(214, 132, 25);
+  border-radius: 0.313rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.625rem;
+  border-radius: 0.313rem;
+  background-color: transparent;
+  border: none;
+}
+
+.lista-checbox,
+.lista-radio {
+  list-style: none;
+  padding: 0.625rem;
+  margin: 0;
+  border: 0.063rem;
+  background-color: rgb(231, 209, 209);
+  border-radius: 0.938rem;
+}
+
+.lista-checbox input,
+.lista-radio input {
+  margin-right: 0.813rem;
+}
+
+button {
+  background-color: rgb(252, 162, 44);
+  color: rgb(100, 57, 0);
+  border: 1px solid rgb(100, 57, 0);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.div-form p {
+  color: rgb(221, 166, 94);
+}
+.div-form h2 {
+  color: rgb(221, 166, 94);
+  text-decoration: underline;
+}

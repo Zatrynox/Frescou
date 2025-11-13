@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mi Web Site</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body>
+    <nav class="topheader">
+      <a href="" class="logo">
+        <img height="100" width="100" src="img/Logo2.png" alt="logoPerfume" />
+      </a>
+
+      <ul class="Menu-Horizontal">
+        <li><a href="">Oferta</a></li>
+        <li>
+          <a href="">Perfumes</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Fragancia Hombres</a></li>
+            <li><a href="">Fragancia Mujeres</a></li>
+            <li><a href="">Estilo Clásico</a></li>
+            <li><a href="">Fragancia de estreno</a></li>
+          </ul>
+        </li>
+        <li><a href="">Maquillaje</a></li>
+        <li><a href="">Cara</a></li>
+        <li><a href="">Contáctanos</a></li>
+      </ul>
+    </nav>
+
+    <!--SECCION PRODUCTOS-->
+    <section class="seccion-Oferta">
+      <div class="div-general-Oferta">
+        <div class="div-Oferta-texto">
+          <h2>Quiénes somos</h2>
+
+          <p>
+            Somos un espacio independiente que fusiona la elegancia del arte, la
+            innovación de la tecnología y la creatividad de la narrativa, para
+            ofrecerte una experiencia única en el mundo de la belleza. En
+            nuestro estudio, no solo encuentras perfumes, maquillaje y productos
+            de cuidado, sino una propuesta sensorial que te invita a explorar,
+            descubrir y sentir cada fragancia, cada tono, cada textura. Cada
+            visita es una inmersión en un universo donde la belleza se redefine,
+            adaptándose a tus deseos y personalidad. Nuestra misión es conectar
+            contigo de una manera especial, a través de productos seleccionados
+            cuidadosamente, y un entorno donde la tecnología y el arte se unen
+            para ofrecerte más que simples compras: ofrecemos una experiencia
+            que estimula todos tus sentidos. Transforma tu rutina de belleza en
+            un viaje que despierta tus emociones.
+          </p>
+        </div>
+        <div class="div-prod-img">
+          <img src="img3/ft1.png" />
+        </div>
+      </div>
+    </section>
+    <div class="sub">
+      <h2>Producto Destacado</h2>
+    </div>
+    <!--SECCION Perfumes-->
+    <section class="seccion-per">
+      <div class="div-general-per">
+        <div class="div-per-texto">
+          <p>
+            "Despierta tus sentidos con una fragancia que te envuelve, vive cada
+            día con la distinción de un aroma único que deja huella." Ideal para
+            un perfume que tiene una presencia tanto cautivadora como exclusiva.
+            "Un perfume que mezcla frescura y elegancia, para que cada momento
+            se sienta único y cada paso
+          </p>
+        </div>
+        <div class="div-prod-vid">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/D99g9xa7BoU?si=MY7UJ04EInJvPaA4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="div-prod-vid2">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/SY-6WZ8fgVg?si=HS-xmBA0Et2L_hXi"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <section class="seccion-form">
+      <div class="div-form">
+        <h2>Formulario de Ayuda</h2>
+        <p>Completar todos los campos</p>
+        <form class="formulario-ayuda">
+          <div class="campo">
+            <label for="nombre"> Nombres Completos: </label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingresar Sus Nombres"
+            />
+          </div>
+
+          <div class="campo">
+            <label for="Nombre"> País: </label>
+
+            <select id="pais" name="pais">
+              <option value="">Seleccione un Pais</option>
+              <option value="Perú">Perú</option>
+              <option value="Brazil">Brazil</option>
+              <option value="Chile">Chile</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label> Ayuda!: </label>
+            <ul class="lista-checbox">
+              <li>
+                <label
+                  ><input type="checkbox" name="Intereses" value="a" />Pedido
+                  Urgente</label
+                >
+              </li>
+
+              <li>
+                <label
+                  ><input type="checkbox" name="Intereses" value="b" />Pedido
+                  Malogrado</label
+                >
+              </li>
+
+              <li>
+                <label
+                  ><input type="checkbox" name="Intereses" value="c" />Ayuda con
+                  Pedido</label
+                >
+              </li>
+
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="Intereses"
+                    value="d"
+                  />Quejas</label
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="campo">
+            <label>Sexo:</label>
+            <ul class="lista-radio">
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="masculino"
+                  />Maculino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="femenino"
+                  />Femenino</label
+                >
+              </li>
+            </ul>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <!-- PIE DE PAGINA -->
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img
+              src="img/logo__1_-removebg-preview.png"
+              alt="Logo"
+              class="footer-logo"
+            />
+            <p>Frescou</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="Documentos/obtenerDocumento.pdf" target="_blank"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="Documentos/obtenerDocumento.pdf" target="_blank"
+              >Protección de Datos</a
+            >
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
